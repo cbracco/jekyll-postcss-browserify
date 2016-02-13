@@ -1,6 +1,9 @@
 language: ruby
 rvm:
   - 2.1
+node_js:
+  - stable
+install: bundle install && npm install
 script: ./bin/cibuild
 env:
   global:
