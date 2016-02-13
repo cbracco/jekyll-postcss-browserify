@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-npm run build
-bundle exec htmlproof ./build
+npm test
+npm run build:production
+bundle exec htmlproof ./build/production --disable-external
