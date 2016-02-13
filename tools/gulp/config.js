@@ -7,7 +7,14 @@ var developmentAssets = 'build/assets/'
 var production = 'build/production/'
 var productionAssets = 'build/production/assets/'
 
-var rsyncCredentials = require('../../rsync-credentials.json')
+// Require rsyncCredentials only if the file exists
+var fs = require('fs')
+try {
+  fs.accessSync('../../rsync-credentials.json', fs.F_OK);
+  var rsyncCredentials = require('../../rsync-credentials.json')
+} catch (e) {
+  // Do not require
+}
 
 // Define Configuration
 module.exports = {
