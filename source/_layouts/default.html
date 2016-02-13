@@ -1,0 +1,17 @@
+{% include head/base.html %}
+  <div role="document">
+    <div role="banner">
+      <a href="/" role="banner">
+        <img src="/assets/images/logo.png" width="144" alt="Narwhal">
+        {% comment %}{{ site.title }}{% endcomment %}
+      </a>
+    </div>
+    <div role="main">
+      {{ content }}
+      {% include site/navigation.html nav=site.data.navigation %}
+    </div>
+    <div role="contentinfo">
+      <p>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.title }}. All Rights Reserved.</p>
+    </div>
+  </div>
+{% include foot/base.html %}

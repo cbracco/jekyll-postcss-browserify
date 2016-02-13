@@ -1,0 +1,26 @@
+---
+layout: null
+permalink: humans.txt
+---
+
+/* The Humans Responsible & Colophon */
+/* humanstxt.org */
+
+/* TEAM */
+{% if site.author %}
+Author(s): {{ site.author }}
+{% endif %}
+{% if site.url %}
+Site:      {{ site.url }}
+{% endif %}
+{% if site.location %}
+Location:  {{ site.location }}
+{% endif %}
+
+/* SITE */
+Last update: {{ site.time | date: "%Y/%m/%d" }}
+{% if site.language %}
+Language:    {{ site.language }}
+{% endif %}
+Doctype:     HTML5
+Standards:   HTML5, CSS3

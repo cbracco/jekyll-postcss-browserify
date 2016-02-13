@@ -1,0 +1,11 @@
+#
+# Configuration
+#
+
+# Routes
+url: "https://example.com"
+
+# Publishing
+future: false
+show_drafts: false
+limit_posts: 0

@@ -1,0 +1,10 @@
+---
+layout: null
+---
+
+User-agent: *
+Disallow: /error/
+
+Allow: /
+
+Sitemap: {{ site.url }}/sitemap.xml
