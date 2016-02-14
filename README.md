@@ -76,7 +76,7 @@ npm run prod
 
 The `npm run prod` command will run the [production Gulp task][gulp-task-prod] which deletes any existing production builds, builds a new production-ready version of the website, starts a local server (http://127.0.0.1.xip.io:9998) with Browsersync, and opens the project in the default browser.
 
-This can be considered **Production Mode”**, which means that the files being served in this local environment are minified and optimized for deployment. It is intended to mimic the production environment on your local environment, so you can preview exactly what you will see before you deploy the website to a production server.
+This can be considered **“Production Mode”**, which means that the files being served in this local environment are minified and optimized for deployment. It is intended to mimic the production environment on your local environment, so you can preview exactly what you will see before you deploy the website to a production server.
 
 ### Deploying
 
