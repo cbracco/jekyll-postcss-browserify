@@ -7,16 +7,16 @@
 This project is an opinionated front-end boilerplate for developing and deploying static websites using [Jekyll][jekyll]. It includes several front-end tools that help facilitate the development process, and [Gulp][gulp] to automate common development tasks, compiling source code, watching files for changes, and deployment.
 
 - [Features](#features)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-  - [Usage](#usage)
-    - [Developing](#developing)
-    - [Publishing](#publishing)
-    - [Deploying](#deploying)
-  - [Credits](#credits)
-  - [Contributing](#contributing)
-  - [Changelog](#changelog)
-  - [License](#license)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Developing](#developing)
+  - [Publishing](#publishing)
+  - [Deploying](#deploying)
+- [Credits](#credits)
+- [Contributing](#contributing)
+- [Changelog](#changelog)
+- [License](#license)
 
 ## Features
 
