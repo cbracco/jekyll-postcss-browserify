@@ -1,3 +1,7 @@
+# 0.0.4 (February 21, 2016)
+
+- Add empty `/icons` folder and update Gulp config.
+
 # 0.0.3 (February 13, 2016)
 
 - Update travis-ci scripts and configuration.

@@ -1,6 +1,6 @@
 {
   "name": "jekyll-postcss-browserify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A boilerplate for building static websites with Gulp, Jekyll, PostCSS, Browserify, svg-sprite, and more.",
   "main": "gulpfile.js",
   "scripts": {
