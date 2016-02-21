@@ -39,6 +39,7 @@ module.exports = {
     styles: srcAssets + '/styles/**/*',
     scripts: srcAssets + '/scripts/**/*',
     images: srcAssets + '/images/**/*',
+    icons: srcAssets + '/icons/**/*',
     favicons: srcAssets + '/favicons/**/*'
   },
   serve: {
@@ -50,6 +51,7 @@ module.exports = {
         developmentAssets + '/styles/*.css',
         developmentAssets + '/scripts/*.js',
         developmentAssets + '/images/**',
+        developmentAssets + '/icons/**',
         developmentAssets + '/favicons/*'
       ],
       port: 9999,
