@@ -1,3 +1,7 @@
+# 0.0.5 (February 21, 2016)
+
+- Add Gulp watch tasks for icons.
+
 # 0.0.4 (February 21, 2016)
 
 - Add empty `/icons` folder and update Gulp config.
