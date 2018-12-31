@@ -1,10 +1,15 @@
-language: node_js
-node_js:
-  - 0.12.2
+language: ruby
+rvm:
+  - 2.3.0
 before_install:
-  - rvm install 2.2.2
-install: bundle install && npm install
-script: ./bin/cibuild
+  - nvm install 8.11.3
+  - npm i -g npm@5
+install:
+  - bundle install
+  - npm install
+script:
+  - npm run build-production
+  - npm run test
 cache:
   bundler: true
   directories:

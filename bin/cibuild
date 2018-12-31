@@ -2,5 +2,5 @@
 set -e # halt script on error
 
 npm test
-npm run build:production
-bundle exec htmlproof ./build/production --disable-external
+npm run build-production
+bundle exec htmlproofer ./build/production --disable-external
