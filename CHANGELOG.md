@@ -1,3 +1,16 @@
+# 0.1.0 (January 2, 2018)
+
+- Update to Gulp 4
+- Update dependencies
+- Re-write Gulp tasks using new syntax (series, parallel, etc.)
+- Add `gulp-size` to styles tasks
+- Update README
+- Update npm scripts
+- Update Travis CI build instructions
+- Update tests
+- Add package-lock.json file
+- Rename `tools/` directory to `gulpfile.js/`
+
 # 0.0.5 (February 21, 2016)
 
 - Add Gulp watch tasks for icons.
