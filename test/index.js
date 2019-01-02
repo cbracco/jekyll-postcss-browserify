@@ -5,7 +5,7 @@ var standard = require('standard')
 // Define Tests
 test('Gulp tasks adhere to JavaScript Standard Style', function (t) {
   // Lint Gulp files with standard
-  standard.lintFiles(['gulpfile.js', 'tools/**/*'], function (err, res) {
+  standard.lintFiles(['gulpfile.js/**/*'], function (err, res) {
     // If there are no lint errors, pass test
     if (res.errorCount === 0 && res.warningCount === 0) {
       t.pass('passed standard')
