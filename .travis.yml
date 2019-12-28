@@ -2,6 +2,8 @@ language: ruby
 rvm:
   - 2.3.0
 before_install:
+  - rvm @global do gem uninstall bundler -a -x
+  - rvm @global do gem install bundler -v 1.17.3
   - nvm install 8.11.3
   - npm i -g npm@5
 install:
